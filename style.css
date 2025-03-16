@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+@font-face {
+    font-family: "Ticking Timebomb BB";
+    src: url("./TickingTimebombBB.ttf")
+}
+
+h1 {
+    font-family: "Ticking Timebomb BB";
+    font-size: 20vw; /* Adjust the size based on viewport width */
+    white-space: nowrap; /* Prevent the text from wrapping */
+    overflow: hidden; /* Hide any text that overflows */
+    text-overflow: ellipsis; /* Optional: add ellipsis if text overflows */
+}
+
